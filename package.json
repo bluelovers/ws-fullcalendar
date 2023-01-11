@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "keywords": [
+    "fullcalendar",
+    "fullcalendar-plugin",
     "create-by-yarn-tool"
   ],
   "workspaces": [
@@ -68,7 +70,7 @@
     "tslib": ">=2"
   },
   "devDependencies": {
-    "@bluelovers/tsconfig": "^1.0.32",
+    "@bluelovers/tsconfig": "^1.0.33",
     "@types/jest": "^29",
     "@types/node": "latest",
     "@yarn-tool/ws-find-up-paths": "*"

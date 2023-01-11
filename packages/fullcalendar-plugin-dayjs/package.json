@@ -1,5 +1,5 @@
 {
-  "name": "fullcalendar-plugin-dayjs-timezone",
+  "name": "fullcalendar-plugin-dayjs",
   "version": "1.0.0",
   "description": "",
   "keywords": [
@@ -8,6 +8,15 @@
     "create-by-yarn-tool",
     "create-by-tsdx"
   ],
+  "homepage": "https://github.com/bluelovers/ws-fullcalendar/tree/master/packages/fullcalendar-plugin-dayjs#readme",
+  "bugs": {
+    "url": "https://github.com/bluelovers/ws-fullcalendar/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluelovers/ws-fullcalendar.git",
+    "directory": "packages/fullcalendar-plugin-dayjs"
+  },
   "license": "ISC",
   "author": "bluelovers",
   "sideEffects": false,
@@ -43,7 +52,7 @@
     "test:tsdx": "ynpx @bluelovers/tsdx test --passWithNoTests",
     "posttest": "yarn run build",
     "build": "yarn run build:tsdx && yarn run build:dts:bundle",
-    "build:dts:bundle": "ynpx @bluelovers/dts-bundle-generator -o ./dist/index.d.ts ./src/index.ts --no-banner --inline-declare-global --inline-declare-externals & echo build:dts:bundle",
+    "build:dts:bundle": "ynpx @bluelovers/dts-bundle-generator -o ./dist/index.d.ts ./src/index.ts --no-banner --inline-declare-global & echo build:dts:bundle",
     "build:dts:copy": "copy .\\src\\index.d.ts .\\dist\\index.d.ts & echo build:dts",
     "build:dts:tsc": "yarn run build:dts:tsc:emit && yarn run build:dts:copy",
     "build:dts:tsc:emit": "tsc --emitDeclarationOnly --declaration --noEmit false",
