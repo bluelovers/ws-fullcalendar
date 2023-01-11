@@ -1,6 +1,6 @@
 {
   "name": "fullcalendar-plugin-dayjs-timezone",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "keywords": [
     "fullcalendar",
@@ -68,8 +68,5 @@
     "tsc:esm": "tsc -p tsconfig.esm.json",
     "tsc:showConfig": "ynpx get-current-tsconfig -p"
   },
-  "dependencies": {},
-  "devDependencies": {},
-  "peerDependencies": {},
   "packageManager": "yarn@1.22.19"
 }
